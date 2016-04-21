@@ -1,0 +1,74 @@
+@import "variables"
+@import "mixins"
+
+*
+  box-sizing: border-box
+
+body
+  background-color: white
+  color: black
+  font-family: $font-family-sans-serif
+
+  header
+    margin: 50px 0
+    .logo
+      display: inline-block
+      h1
+        margin: 5px 0 0
+        display: inline-block
+        font-size: 28px
+        letter-spacing: 3px
+
+        a
+          #{$wk}transition: all 500ms ease
+          transition: all 500ms ease
+
+    .menu
+      position: relative
+      .hamburger
+        padding: 12px 10px
+        display: inline-block
+        background-color: black
+        border-radius: 50%
+        cursor: pointer
+        position: absolute
+        top: 0
+        right: 0
+
+        span
+          width: 20px
+          height: 2px
+          background-color: white
+          display: block
+
+        span + span
+          margin-top: 4px
+
+  .about-me
+    margin: 150px 0
+    h3
+      font-size: 34px
+      line-height: 50px
+      letter-spacing: 1px
+
+  .email
+    margin: 50px 0
+    a
+      font:
+        size: 28px
+        weight: bold
+
+  footer
+    margin: 100px 0
+    .social-links
+      ul
+        li
+          display: inline-block
+          a
+            font-size: 28px
+            &:hover
+              color: $brand-blue
+              #{$wk}transition: all 500ms ease
+              transition: all 500ms ease
+        li + li
+          margin-left: 25px
