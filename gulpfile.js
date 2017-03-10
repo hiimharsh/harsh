@@ -24,10 +24,6 @@ gulp.task('scripts', function() {
 gulp.task('sass:development', function() {
     gulp.src(['./sass/*.sass', './scss/*.scss'])
         .pipe(sass().on('error', sass.logError))
-        .pipe(minifyCss({
-            keepSpecialComments: 0,
-            rebase: false
-        }))
         .pipe(gulp.dest('./css'))
         .pipe(connect.reload());
 });

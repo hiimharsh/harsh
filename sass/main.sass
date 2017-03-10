@@ -11,6 +11,10 @@ a
     color: black
     text-decoration: none
 
+.half-section
+  width: 50%
+  display: inline-block
+
 body
   background-color: white
   color: black
@@ -52,11 +56,25 @@ body
           margin-top: 4px
 
   .about-me
-    margin: 150px 0
+    margin: 150px 0 0
     h3
       font-size: 34px
       line-height: 50px
       letter-spacing: 1px
+
+  .projects, .experience
+    margin: 150px 0
+    ul
+      margin-top: 30px
+      list-style-type: none
+      li
+        margin-top: 30px
+        &:before
+          content: '\2014'
+          position: absolute
+          margin-left: -40px
+        p
+          color: #555
 
   .email
     margin: 50px 0
