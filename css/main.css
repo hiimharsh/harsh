@@ -8677,9 +8677,12 @@ a {
   display: inline-block; }
 
 body {
-  background-color: white;
+  background-color: #B378D3;
   color: black;
-  font-family: "Product Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Product Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 10px; }
+  body .main {
+    background-color: white; }
   body header {
     margin: 50px 0; }
     body header .logo {
