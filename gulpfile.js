@@ -23,7 +23,7 @@ gulp.task('scripts', function() {
 // gulp sass development task
 gulp.task('sass:development', function() {
     gulp.src(['./sass/*.sass', './scss/*.scss'])
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
         .pipe(gulp.dest('./css'))
         .pipe(connect.reload());
 });
