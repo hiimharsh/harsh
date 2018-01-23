@@ -16,9 +16,8 @@ a
     outline: none
 
 .half-section
-  width: 50%
-  display: inline-block
-  @media (max-width: 768px) { width: 100% }
+  width: 100%
+  display: block
 
 body
   background-color: $brand-blue
@@ -28,6 +27,7 @@ body
   @media (max-width: 768px) { padding: 5px }
 
   .main
+    min-height: calc(100vh - 20px)
     background-color: white
 
   .container
@@ -88,12 +88,19 @@ body
     ul
       margin-top: 30px
       list-style-type: none
+      @media (max-width: 768px) { margin-left: 20px }
+      @media (max-width: 480px) { margin-left: 10px }
       li
+        width: 50%
         margin-top: 30px
+        display: inline-block
+        position: relative
+        @media (max-width: 768px) { width: 100%; display: block }
         &:before
           content: '\2014'
           position: absolute
-          margin-left: -40px
+          top: 10px
+          left: -40px
         h4
           @media (max-width: 768px) { font-size: 14px }
           a
