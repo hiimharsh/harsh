@@ -2,7 +2,11 @@
   "name": "hiimharsh",
   "version": "1.0.0",
   "description": "hiimharsh",
-  "main": "gulpfile.js",
+  "main": "index.html",
+  "author": "Harsh Thakkar",
+  "email": "harshthakkar46@gmail.com",
+  "homepage": "https://hiimharsh.github.io/harsh",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +14,6 @@
     "personal",
     "website"
   ],
-  "author": "Harsh Thakkar",
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",
