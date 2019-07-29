@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Travel Map",
+        "url": "https://travel-map.netlify.com/",
+        "language": "ReactJS + Google Maps",
+        "duration": "Jan 2018"
+    },
+    {
+        "name": "React Youtube",
+        "url": "https://hiimharsh.github.io/react-youtube/",
+        "language": "ReactJS + Youtube API",
+        "duration": "May 2017"
+    },
+    {
+        "name": "OpenUp",
+        "url": "https://github.com/hiimharsh/openup/",
+        "language": "Angular 2 + ExpressJS",
+        "duration": "Oct 2016"
+    }
+]

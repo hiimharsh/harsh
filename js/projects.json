@@ -1,27 +1,25 @@
 [
     {
+        "name": "Pedidos Online",
+        "url": "https://pedidosonline.com/",
+        "language": "React Native",
+        "duration": "Apr 2019 - Present"
+    }, {
+        "name": "Vinod Tawde",
+        "url": "https://vinodtawde.com/",
+        "language": "Angular 7",
+        "duration": "Mar 2019"
+    }, {
         "name": "Delivery Solutions",
         "url": "https://www.deliverysolutions.co/",
         "language": "Angular 4 + NodeJS",
-        "duration": "Feb 2018 - Present"
-    },
-    {
-        "name": "Travel Map",
-        "url": "https://travel-map.netlify.com/",
-        "language": "ReactJS + Google Maps",
-        "duration": "Jan 2018"
+        "duration": "Feb 2018 - Feb 2019"
     },
     {
         "name": "React Native Map",
         "url": "https://github.com/hiimharsh/react-native-map/",
         "language": "React Native + Google Maps",
         "duration": "Sep 2017"
-    },
-    {
-        "name": "React Youtube",
-        "url": "https://hiimharsh.github.io/react-youtube/",
-        "language": "ReactJS + Youtube API",
-        "duration": "May 2017"
     },
     {
         "name": "WODROB",
@@ -34,12 +32,6 @@
         "url": "https://customcricketcompany.com/",
         "language": "AngularJS + ThreeJS",
         "duration": "Dec 2016 - Feb 2017"
-    },
-    {
-        "name": "OpenUp",
-        "url": "https://github.com/hiimharsh/openup/",
-        "language": "Angular 2 + ExpressJS",
-        "duration": "Oct 2016"
     },
     {
         "name": "Actofit",
