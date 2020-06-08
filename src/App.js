@@ -4,7 +4,10 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import './App.css';
 import Header from './components/header';
 import Banner from './components/banner';
-import Specialize from './components/specialize';
+import Footer from './components/footer';
+import Work from './components/work';
+import Experience from './components/experience';
+import Skills from './components/skills';
 
 library.add(fab)
 
@@ -14,7 +17,10 @@ class App extends Component {
       <div className="main">
         <Header />
         <Banner />
-        <Specialize />
+        <Work />
+        <Experience />
+        <Skills />
+        <Footer />
       </div>
     );
   }

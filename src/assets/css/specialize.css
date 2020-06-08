@@ -1,0 +1,47 @@
+.specialize {
+  text-align: center;
+}
+
+.specialize h4 {
+  font-size: 38px;
+}
+
+.specialize .list {
+  margin: 50px 100px;
+}
+
+.specialize .list ul li {
+  display: flex;
+}
+
+.specialize .list ul li + li {
+  margin-top: 50px;
+}
+
+.specialize .list ul li .icon {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.specialize .list ul li .icon span {
+  padding: 10px;
+  background-color: #ff2f2f;
+  border-radius: 50%;
+}
+
+.specialize .list ul li .content {
+  text-align: left;
+}
+
+.specialize .list ul li .content .title {
+  font-size: 24px;
+}
+
+.specialize .list ul li .content .description {
+  color: #aeaeae;
+  margin-top: 10px;
+  font-size: 16px;
+}

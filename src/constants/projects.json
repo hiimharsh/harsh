@@ -1,0 +1,60 @@
+[
+    {
+        "name": "Pedidos Online",
+        "url": "https://pedidosonline.com/",
+        "language": "React Native",
+        "duration": "Apr 2019 - Present"
+    }, {
+        "name": "Vinod Tawde",
+        "url": "https://vinodtawde.com/",
+        "language": "Angular 7",
+        "duration": "Mar 2019"
+    }, {
+        "name": "Delivery Solutions",
+        "url": "https://www.deliverysolutions.co/",
+        "language": "Angular 4 + NodeJS",
+        "duration": "Feb 2018 - Feb 2019"
+    },
+    {
+        "name": "React Native Map",
+        "url": "https://github.com/hiimharsh/react-native-map/",
+        "language": "React Native + Google Maps",
+        "duration": "Sep 2017"
+    },
+    {
+        "name": "WODROB",
+        "url": "https://app.wodrob.com/",
+        "language": "AngularJS + iOS",
+        "duration": "Feb 2017 - Nov 2017"
+    },
+    {
+        "name": "Custom Cricket Company",
+        "url": "https://customcricketcompany.com/",
+        "language": "AngularJS + ThreeJS",
+        "duration": "Dec 2016 - Feb 2017"
+    },
+    {
+        "name": "Actofit",
+        "url": "https://itunes.apple.com/st/app/actofit/id1176916839/",
+        "language": "iOS",
+        "duration": "Jun 2016 - Aug 2016"
+    },
+    {
+        "name": "Travelibro",
+        "url": "https://itunes.apple.com/in/app/travelibro-travel-and-local-stories/id1056641759/",
+        "language": "iOS",
+        "duration": "Apr 2016 - Nov 2016"
+    },
+    {
+        "name": "Jaipur Pink Panthers",
+        "url": "https://itunes.apple.com/in/app/jaipur-pink-panthers/id1084678272/",
+        "language": "iOS",
+        "duration": "Feb 2016 - May 2016"
+    },
+    {
+        "name": "Noteshare",
+        "url": "https://play.google.com/store/apps/details?id=com.noteshareapp.noteshare",
+        "language": "Android",
+        "duration": "Dec 2015 - Jan 2016"
+    }
+]

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../App.css'
+import '../assets/css/specialize.css'
 
 const specializeArr = [
     {
