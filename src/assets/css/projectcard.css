@@ -42,8 +42,8 @@
     font-weight: 500;
 }
 
-.project-card .project-language-cards .project-language + .project-language{
-    margin-left: 10px;
+.project-card .project-language-cards .project-language {
+    margin-right: 10px;
 }
 
 @media (max-width: 1100px) {
@@ -59,6 +59,15 @@
 
     .project-card p {
         font-size: 12px;
+    }
+
+    .project-card .project-language-cards {
+        margin-top: 10px;
+    }
+
+    .project-card .project-language-cards .project-language {
+        margin-top: 10px;
+        margin-right: 10px;
     }
 }
 
