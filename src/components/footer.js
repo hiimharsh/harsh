@@ -18,7 +18,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className="copyright">
-                    <p>Harsh Thakkar &copy; {new Date().getFullYear()}</p>
+                    <p>Harsh Thakkar &copy; 2015 - {new Date().getFullYear()}</p>
                 </div>
             </div>
         </footer>

@@ -14,7 +14,7 @@
   z-index: 1;
 }
 
-.banner .name h2 {
+.banner .name h1 {
   font-size: 64px;
   letter-spacing: 1.2px;
   font-family: var(--secondary-font);
@@ -34,8 +34,7 @@
   padding: 8px 16px;
   background-color: var(--blue-button-background);
   color: var(--blue-button-color);
-  border: 1px solid #1a1a1a;
-  border-color: var(--blue-button-border);
+  border: 1px solid var(--blue-button-border);
   border-radius: 4px;
   line-height: 24px;
   font-family: var(--main-font);
@@ -43,7 +42,7 @@
 }
 
 @media (max-width: 1100px) {
-	.banner .name h2 {
+	.banner .name h1 {
     font-size: 48px;
   }
 
@@ -60,7 +59,7 @@
 }
   
 @media (max-width: 768px) {
-	.banner .name h2 {
+	.banner .name h1 {
     font-size: 32px;
   }
 

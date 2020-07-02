@@ -5,8 +5,8 @@ const Banner = props => {
     return (
         <section className="banner">
             <div className="name">
-                <h2>Hey, I'm Harsh</h2>
-                <p>I'm a Full Stack Web App // Mobile App Developer based in Mumbai, currently working for Whitecrow Research.</p>
+                <h1>Hey, I'm Harsh</h1>
+                <p>I'm a Full Stack Web App // Mobile App Developer at Whitecrow Research in Mumbai</p>
             </div>
             <div className="available">
                 Available for Discussion

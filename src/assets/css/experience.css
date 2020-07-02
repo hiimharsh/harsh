@@ -1,6 +1,6 @@
 .experience {
     padding: 50px 0 20px;
-    background-color: var(--lighter-gray-color);
+    background-color: var(--experience-color);
 }
 
 .experience .experience-headline h3 {
