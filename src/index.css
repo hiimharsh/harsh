@@ -3,6 +3,16 @@
   src: url('./assets/fonts/productsans.ttf');
 }
 
+@font-face {
+  font-family: 'Hand';
+  src: url('./assets/fonts/christopherhand.ttf');
+}
+
+@font-face {
+  font-family: 'Mandy';
+  src: url('./assets/fonts/littlemandy.ttf');
+}
+
 html, body,
 #harsh-app, #harsh-app > div {
   height: 100%;

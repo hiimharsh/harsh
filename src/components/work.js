@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/css/work.css'
+import '../assets/css/home/work.css'
 import Projects from '../constants/projects.json'
 import ProjectCard from './projectcard'
 

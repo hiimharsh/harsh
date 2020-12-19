@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/css/projectcard.css'
+import '../assets/css/home/projectcard.css'
 
 const ProjectCard = props =>  {
     return (

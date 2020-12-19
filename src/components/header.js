@@ -1,6 +1,6 @@
 import React from 'react'
 import propTypes from 'prop-types'
-import '../assets/css/header.css'
+import '../assets/css/home/header.css'
 import profileImage from '../assets/images/profile.jpg'
 import sunIcon from '../assets/images/planets/sun.png'
 import moonIcon from '../assets/images/planets/moon.png'

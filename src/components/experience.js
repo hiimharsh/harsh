@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/css/experience.css'
+import '../assets/css/home/experience.css'
 
 const Experiences = [
     {
