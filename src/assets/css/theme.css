@@ -5,6 +5,7 @@
     --lighter-gray-color: #f4f7f9;
     --light-gray-color: #ebf0f3;
     --dark-gray-color: #777777;
+    --photography-background: rgb(253 251 249);
     --header-border-color: #f3f3f3;
     --header-dropdown-color: #fefefe;
     --experience-color: #f4f7f9;
@@ -13,6 +14,7 @@
     
     --primary-font: Inter, 'Product Sans', sans-serif;
     --secondary-font: 'Product Sans', sans-serif;
+    --spectral-font: 'Spectral', sans-serif;
   
     --success-button-background: rgba(39,174,96,.1);
     --success-button-color: #27ae60;

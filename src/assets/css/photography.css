@@ -1,0 +1,344 @@
+.photography-main {
+    background: var(--photography-background) !important;
+    font-family: var(--spectral-font);
+}
+
+.photography-header {
+    width: auto;
+    height: auto;
+    margin: 0 40px 30px;
+    padding: 40px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: var(--photography-background);
+    border: none;
+    border-bottom: 1px solid #333333;
+}
+
+.photography-header::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #333333;
+    position: absolute;
+    bottom: -2px;
+    left: -15px;
+    transform: rotate(0.75deg);
+}
+
+.photography-header p a {
+    font-family: var(--spectral-font);
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.photography-header li + li {
+    margin-left: 20px;
+}
+
+.photography-header nav a {
+    font-family: var(--spectral-font);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.photography-header nav a:hover {
+    text-decoration: underline;
+}
+
+.photography-main section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.photography-main section .collection {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.photography-main section .collection .collection-name {
+    padding: 4px 40px;
+    position: absolute;
+    bottom: -36px;
+    left: 40px;
+    background: var(--photography-background);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.photography-main section .collection .collection-name p {
+    font-family: var(--spectral-font);
+    font-size: 42px;
+}
+
+.photography-main .loader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    /* z-index: 9; */
+}
+
+.photography-main .loader img {
+    width: 300px;
+    height: auto;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.photography-about {
+    height: auto !important;
+    background-color: var(--photography-background) !important;
+}
+
+.photography-about section {
+    padding: 20px 60px 60px;
+    display: flex;
+}
+
+.photography-about section .about-text {
+    flex: 70;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photography-about section .about-image {
+    margin-left: 40px;
+    flex: 30;
+}
+
+.photography-about section span, p {
+    /* font-family: var(--spectral-font); */
+}
+
+.photography-about section span {
+    color: #363636;
+    font-family: var(--spectral-font);
+    font-size: 24px;
+}
+
+.photography-about section .about-title {
+    font-family: var(--spectral-font);
+    font-size: 58px;
+    line-height: 80px;
+}
+
+.photography-about section .about-subtitle {
+    margin-top: 20px;
+    color: #363636;
+    font-family: var(--spectral-font);
+    font-size: 28px;
+    font-style: italic;
+}
+
+.photography-about section .about-connect {
+    font-family: var(--spectral-font);
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.photography-about section .about-connect a {
+    margin-left: 20px;
+}
+
+.photography-about section .about-connect a:first-child {
+    margin-top: -2px;
+    font-size: 24px;
+}
+
+.photography-about section .about-image img {
+    max-width: 100%;
+}
+
+@media(max-width: 1400px) {
+    .photography-about section .about-title {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .photography-about section .about-subtitle {
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .photography-main section .collection .collection-name {
+        bottom: -30px;
+    }
+
+    .photography-main section .collection .collection-name p {
+        font-size: 32px;
+    }
+
+    .photography-about section span {
+        font-size: 20px;
+    }
+
+    .photography-about section .about-title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .photography-about section .about-subtitle {
+        font-size: 20px;
+    }
+
+    .photography-about section .about-connect {
+        font-size: 18px;
+    }
+
+    .photography-about section .about-connect a:first-child {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .photography-main section .collection .collection-name {
+        padding: 4px 20px;
+        bottom: -24px;
+        left: 20px;
+    }
+
+    .photography-main section .collection {
+        height: 600px;
+    }
+
+    .photography-main section .collection .collection-name p {
+        font-size: 24px;
+    }
+
+    .photography-header {
+        margin: 0 30px 20px;
+        padding: 30px 20px 20px;
+    }
+    
+    .photography-header::after {
+        left: -5px;
+        transform: rotate(1deg);
+    }
+    
+    .photography-header p a {
+        font-size: 24px;
+    }
+    
+    .photography-header li + li {
+        margin-left: 20px;
+    }
+    
+    .photography-header nav a {
+        font-size: 16px;
+    }
+
+    .photography-about section {
+        padding: 20px 40px 40px;
+        flex-direction: column-reverse;
+    }
+
+    .photography-about section .about-text {
+        flex: 1;
+    }
+
+    .photography-about section .about-image {
+        margin-left: 0;
+        margin-bottom: 40px;
+        flex: 1;
+    }
+
+    .photography-about section span {
+        font-size: 20px;
+    }
+
+    .photography-about section .about-title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .photography-about section .about-subtitle {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .photography-about section .about-connect {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .photography-about section .about-connect a:first-child {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 480px) {
+    .photography-main section .collection .collection-name {
+        padding: 4px 15px;
+        bottom: -18px;
+        left: 10px;
+    }
+
+    .photography-main section .collection {
+        height: 500px;
+    }
+
+    .photography-main section .collection .collection-name p {
+        font-size: 20px;
+    }
+
+    .photography-header {
+        flex-direction: column;
+        padding: 20px 20px 20px;
+    }
+
+    .photography-header nav {
+        margin-top: 5px;
+    }
+    
+    .photography-header nav a {
+        font-size: 14px;
+    }
+
+    .photography-about section {
+        padding: 20px 20px 40px;
+    }
+
+    .photography-about section .about-image {
+        margin-bottom: 20px;
+    }
+
+    .photography-about section span {
+        font-size: 18px;
+    }
+
+    .photography-about section .about-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .photography-about section .about-subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .photography-about section .about-connect {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .photography-about section .about-connect a:first-child {
+        font-size: 18px;
+    }
+}
