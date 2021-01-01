@@ -1,8 +1,10 @@
 {
-  "main.css": "static/css/main.89a3d577.css",
-  "main.css.map": "static/css/main.89a3d577.css.map",
-  "main.js": "static/js/main.cbfd08c5.js",
-  "main.js.map": "static/js/main.cbfd08c5.js.map",
-  "static/media/productsans.ttf": "static/media/productsans.dba0c688.ttf",
-  "static/media/profile.jpg": "static/media/profile.076a3eca.jpg"
+  "main.css": "static/css/main.fd948408.css",
+  "main.css.map": "static/css/main.fd948408.css.map",
+  "main.js": "static/js/main.acf78053.js",
+  "main.js.map": "static/js/main.acf78053.js.map",
+  "static\\media\\harsh.jpg": "static/media/harsh.593cd14e.jpg",
+  "static\\media\\loader.gif": "static/media/loader.53e5d263.gif",
+  "static\\media\\productsans.ttf": "static/media/productsans.dba0c688.ttf",
+  "static\\media\\profile.jpg": "static/media/profile.076a3eca.jpg"
 }
