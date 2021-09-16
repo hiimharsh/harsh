@@ -48,6 +48,10 @@ header .logo h3 {
 	letter-spacing: 1.5px;
 }
 
+header .logo h3 a {
+	font-family: var(--third-font);
+}
+
 header .nav-links {
 	flex: 1;
 	/* margin-right: 100px; */

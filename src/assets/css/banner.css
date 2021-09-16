@@ -9,22 +9,33 @@
   align-items: flex-start;
 }
 
+.banner main {
+  margin-bottom: 20px;
+}
+
+.banner main p {
+  font-family: var(--third-font);
+  font-size: 48px;
+}
+
 .banner .name {
+  margin-top: 20px;
   position: relative;
   z-index: 1;
 }
 
 .banner .name h1 {
-  font-size: 64px;
+  font-size: 32px;
+  font-weight: normal;
   letter-spacing: 1.2px;
   font-family: var(--secondary-font);
 }
 
 .banner .name p {
-  margin-top: 20px;
+  margin-top: 0px;
   color: var(--secondary-color);
   font-family: var(--main-font);
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.7;
 }
 

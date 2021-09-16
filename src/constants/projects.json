@@ -1,9 +1,19 @@
 [
     {
+        "name": "Webbtree",
+        "url": "https://webbtree.com/",
+        "language": "Angular 9 + NodeJS",
+        "duration": "Feb 2020 - Present"
+    }, {
+        "name": "Whitecrow",
+        "url": "https://whitecrow.co/",
+        "language": "Angular 9 + NodeJS",
+        "duration": "Aug 2019 - Jan 2020"
+    }, {
         "name": "Pedidos Online",
         "url": "https://pedidosonline.com/",
         "language": "React Native",
-        "duration": "Apr 2019 - Present"
+        "duration": "Apr 2019 - Jul 2019"
     }, {
         "name": "Vinod Tawde",
         "url": "https://vinodtawde.com/",
