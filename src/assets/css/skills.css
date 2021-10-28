@@ -4,9 +4,10 @@
 }
 
 .skills .skills-headline h3 {
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: 800;
     line-height: 1.5;
+    letter-spacing: -2px;
 }
 
 .skills .skills-main {
@@ -39,13 +40,13 @@
 .skills-card p {
     margin-top: 10px;
     font-size: 14px;
-    color: var(--dark-gray-color);
+    color: var(--secondary-color);
     font-weight: 400;
 }
 
 @media (max-width: 1100px) {
 	.skills .skills-headline h3 {
-        font-size: 24px;
+        font-size: 38px;
     }
 
     .skills-card h4 a {
@@ -63,7 +64,7 @@
     }
 
 	.skills .skills-headline h3 {
-        font-size: 22px;
+        font-size: 32px;
     }
 
     .skills-card h4 {
@@ -81,6 +82,7 @@
     }
 
     .skills .skills-headline h3 {
+        font-size: 24px;
         text-align: center;
     }
 
@@ -95,9 +97,5 @@
 
     .skills-card:nth-child(even) {
         margin-left: 20px;
-    }
-
-    .skills .skills-headline h3 {
-        font-size: 20px;
     }
 }

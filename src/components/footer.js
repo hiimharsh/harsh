@@ -18,7 +18,9 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className="copyright">
-                    <p>Harsh Thakkar &copy; 2015 - {new Date().getFullYear()}</p>
+                    <p>
+                        <a href="https://hiimharsh.github.io/harsh/">Harsh Thakkar</a> &copy; {new Date().getFullYear()}
+                    </p>
                 </div>
             </div>
         </footer>

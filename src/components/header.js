@@ -1,7 +1,7 @@
 import React from 'react'
 import propTypes from 'prop-types'
 import '../assets/css/header.css'
-import profileImage from '../assets/images/profile.jpg'
+// import profileImage from '../assets/images/profile.jpg'
 import sunIcon from '../assets/images/planets/sun.png'
 import moonIcon from '../assets/images/planets/moon.png'
 
@@ -79,20 +79,20 @@ class Header extends React.Component {
             <header>
                 <div id="header" className="header">
                     <div className="logo">
-                        <div className="profile-image">
+                        {/* <div className="profile-image">
                             <a href="/harsh">
                                 <img src={profileImage} alt="Harsh" />
                             </a>
-                        </div>
+                        </div> */}
                         <h3><a href="/harsh">{this.props.title}</a></h3>
                     </div>
                     <div className="nav-links">
                         <ul>
                             <li>
-                                <a href="#work">Work</a>
+                                <a href="#projects">Projects</a>
                             </li>
                             <li>
-                                <a href="#experience">Experience</a>
+                                <a href="#experiences">Experience</a>
                             </li>
                             <li>
                                 <a href="#skills">Skills</a>

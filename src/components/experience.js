@@ -5,7 +5,7 @@ const Experiences = [
     {
         position: 'Senior Full Stack Developer',
         company: 'Whitecrow Research',
-        url: 'https://www.whitecrowresearch.com/',
+        url: 'https://whitecrow.co/',
         duration: 'Aug 2019 - Present'
     },
     {
@@ -24,11 +24,11 @@ const Experiences = [
 
 const Experience = props => {
     return (
-        <section className="experience" id="experience">
+        <section className="experience" id="experiences">
             <div className="experience-container">
                 <div className="experience-headline">
                     <h3>
-                        Experience
+                        Experiences
                     </h3>
                     <div className="experience-main">
                         {

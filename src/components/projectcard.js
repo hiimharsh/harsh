@@ -5,12 +5,13 @@ const ProjectCard = props =>  {
     return (
         <div className="project-card">
             <h4>
-                <a href={props.project.url}>
+                <a href={props.project.url} target="_blank">
                     {props.project.name}
                 </a>
             </h4>
-            <p>{props.project.duration}</p>
-            <div className="project-language-cards">
+            <p className="description">{props.project.description}</p>
+            {/* <p className="duration">{props.project.duration}</p> */}
+            {/* <div className="project-language-cards">
                 {
                     props.project.language.split(' + ').map((lang, index) => (
                         <div key={index} className="project-language">
@@ -18,7 +19,7 @@ const ProjectCard = props =>  {
                         </div>
                     ))
                 }
-            </div>
+            </div> */}
         </div>
     )
 }

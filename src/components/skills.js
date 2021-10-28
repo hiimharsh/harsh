@@ -4,7 +4,7 @@ import '../assets/css/skills.css'
 const skills = [
     {
         title: 'Technical',
-        skill: ["AngularJS", "React", "Node.js", "Swift", "Three.js"]
+        skill: ["Angular", "React", "Node.js", "Swift", "Three.js"]
     },
     {
         title: 'Cloud',
@@ -12,7 +12,7 @@ const skills = [
     },
     {
         title: 'Databases',
-        skill: ["MongoDB", "MySQL", "PostgreSQL", "DynamoDB"]
+        skill: ["MongoDB", "MySQL", "PostgreSQL", "DynamoDB", "Redis"]
     },
     {
         title: 'Non-Technical',

@@ -4,9 +4,10 @@
 }
 
 .experience .experience-headline h3 {
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: 800;
     line-height: 1.5;
+    letter-spacing: -2px;
 }
 
 .experience .experience-main {
@@ -33,16 +34,20 @@
     text-decoration: none;
 }
 
+.experience-card h4 a:hover {
+    text-decoration: underline;
+}
+
 .experience-card p {
     margin-top: 10px;
     font-size: 14px;
-    color: var(--dark-gray-color);
+    color: var(--secondary-color);
     font-weight: 400;
 }
 
 @media (max-width: 1100px) {
 	.experience .experience-headline h3 {
-        font-size: 24px;
+        font-size: 38px;
     }
 
     .experience-card h4 a {
@@ -52,7 +57,7 @@
   
 @media (max-width: 768px) {
 	.experience .experience-headline h3 {
-        font-size: 22px;
+        font-size: 32px;
     }
 
     .experience-card h4 a {
@@ -74,6 +79,7 @@
     }
 
     .experience .experience-headline h3 {
+        font-size: 24px;
         text-align: center;
     }
     
@@ -82,9 +88,5 @@
         margin-left: 0 !important;
         margin-bottom: 0;
         text-align: center;
-    }
-
-    .experience .experience-headline h3 {
-        font-size: 20px;
     }
 }

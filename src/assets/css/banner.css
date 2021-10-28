@@ -16,7 +16,7 @@
 
 .banner .name h1 {
   font-size: 64px;
-  letter-spacing: 1.2px;
+  letter-spacing: -1px;
   font-family: var(--secondary-font);
 }
 
@@ -25,7 +25,22 @@
   color: var(--secondary-color);
   font-family: var(--main-font);
   font-size: 24px;
+  letter-spacing: -1px;
   line-height: 1.7;
+}
+
+.banner .name p.learnmore {
+  margin-top: 5px;
+  color: var(--dark-gray-color);
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 1.7;
+  cursor: pointer;
+  transition: 300ms all ease-in-out;
+}
+
+.banner .name p.learnmore:hover {
+  color: var(--secondary-color);
 }
 
 .available {

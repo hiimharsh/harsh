@@ -7,6 +7,22 @@
   height: 80px;
 }
 
+.scroll-to-top {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-gray-color);
+  color: var(--dark-gray-color);
+  border-radius: 50%;
+  font-size: 32px;
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
