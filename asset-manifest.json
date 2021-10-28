@@ -1,7 +1,22 @@
 {
-  "main.css": "static/css/main.fcf7b8cd.css",
-  "main.css.map": "static/css/main.fcf7b8cd.css.map",
-  "main.js": "static/js/main.e4d014b7.js",
-  "main.js.map": "static/js/main.e4d014b7.js.map",
-  "static/media/productsans.ttf": "static/media/productsans.dba0c688.ttf"
+  "files": {
+    "main.css": "/harsh/static/css/main.c05a8fc9.chunk.css",
+    "main.js": "/harsh/static/js/main.4e405e22.chunk.js",
+    "main.js.map": "/harsh/static/js/main.4e405e22.chunk.js.map",
+    "runtime-main.js": "/harsh/static/js/runtime-main.c076f525.js",
+    "runtime-main.js.map": "/harsh/static/js/runtime-main.c076f525.js.map",
+    "static/js/2.5b4f378a.chunk.js": "/harsh/static/js/2.5b4f378a.chunk.js",
+    "static/js/2.5b4f378a.chunk.js.map": "/harsh/static/js/2.5b4f378a.chunk.js.map",
+    "index.html": "/harsh/index.html",
+    "static/css/main.c05a8fc9.chunk.css.map": "/harsh/static/css/main.c05a8fc9.chunk.css.map",
+    "static/js/2.5b4f378a.chunk.js.LICENSE.txt": "/harsh/static/js/2.5b4f378a.chunk.js.LICENSE.txt",
+    "static/media/newprofile.4cb64d94.jpg": "/harsh/static/media/newprofile.4cb64d94.jpg",
+    "static/media/index.scss": "/harsh/static/media/productsans.53df38d5.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c076f525.js",
+    "static/js/2.5b4f378a.chunk.js",
+    "static/css/main.c05a8fc9.chunk.css",
+    "static/js/main.4e405e22.chunk.js"
+  ]
 }
