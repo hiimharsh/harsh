@@ -1,19 +1,19 @@
 .work {
     padding: 50px 0 20px;
     /* background-color: dodgerblue; */
-}
 
-.work .work-headline h3 {
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 1.5;
-    letter-spacing: -2px;
-}
+    .work-headline h3 {
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 1.5;
+        letter-spacing: -2px;
+    }
 
-.work .work-projects {
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
+    .work-projects {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 1100px) {

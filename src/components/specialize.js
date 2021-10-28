@@ -1,6 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../assets/css/specialize.css'
+import '../assets/css/specialize.scss'
 
 const specializeArr = [
     {
@@ -35,7 +34,7 @@ const Specialize = props => {
                         specializeArr.map((spec, index) => (
                             <li key={index}>
                                 <div className="icon">
-                                    <span><FontAwesomeIcon icon={spec.icon}/></span>
+                                    {/* <span><FontAwesomeIcon icon={spec.icon}/></span> */}
                                 </div>
                                 <div className="content">
                                     <div className="title">{spec.title}</div>

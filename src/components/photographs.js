@@ -2,7 +2,7 @@ import React from 'react'
 // import axios from 'axios'
 // import ImageMasonry from 'react-image-masonry'
 import ImageMasonry from './imageMasonry'
-import '../assets/css/photographs.css'
+import '../assets/css/photographs.scss'
 
 export default class Photographs extends React.Component {
     state = {

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/css/skills.css'
+import '../assets/css/skills.scss'
 
 const skills = [
     {

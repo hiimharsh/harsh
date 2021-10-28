@@ -1,7 +1,6 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import '../assets/css/footer.css'
+import { FaTwitter, FaTumblr, FaInstagram, FaSnapchatGhost, FaGithubAlt, FaEnvelope } from 'react-icons/fa'
+import '../assets/css/footer.scss'
 
 export default function Footer() {
     return (
@@ -9,12 +8,12 @@ export default function Footer() {
             <div className="footer">
                 <div className="social-links">
                     <ul>
-                        <li><a href="http://twitter.com/hiimharsh/" target="_blank" className="twitter" title="Twitter"><FontAwesomeIcon icon={['fab', 'twitter']}/></a></li>
-                        <li><a href="http://hiimharsh.tumblr.com/" target="_blank" className="tumblr" title="Tumblr"><FontAwesomeIcon icon={['fab', 'tumblr']}/></a></li>
-                        <li><a href="http://instagram.com/hiimharsh/" target="_blank" className="instagram" title="Instagram"><FontAwesomeIcon icon={['fab', 'instagram']}/></a></li>
-                        <li><a href="http://snapchat.com/add/hiimharsh/" target="_blank" className="snapchat" title="Snapchat"><FontAwesomeIcon icon={['fab', 'snapchat-ghost']}/></a></li>
-                        <li><a href="http://github.com/hiimharsh/" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} title="Github"/></a></li>
-                        <li><a href="mailto:harshthakkar46@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} title="Mail"/></a></li>
+                        <li><a href="http://twitter.com/hiimharsh/" target="_blank" className="twitter" title="Twitter"><FaTwitter size={24}/></a></li>
+                        <li><a href="http://hiimharsh.tumblr.com/" target="_blank" className="tumblr" title="Tumblr"><FaTumblr size={24}/></a></li>
+                        <li><a href="http://instagram.com/hiimharsh/" target="_blank" className="instagram" title="Instagram"><FaInstagram size={24}/></a></li>
+                        <li><a href="http://snapchat.com/add/hiimharsh/" target="_blank" className="snapchat" title="Snapchat"><FaSnapchatGhost size={24}/></a></li>
+                        <li><a href="http://github.com/hiimharsh/" target="_blank"><FaGithubAlt size={26} title="Github"/></a></li>
+                        <li><a href="mailto:harshthakkar46@gmail.com" target="_blank"><FaEnvelope size={24} title="Mail"/></a></li>
                     </ul>
                 </div>
                 <div className="copyright">
