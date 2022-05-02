@@ -3,10 +3,16 @@ import '../assets/css/experience.scss'
 
 const Experiences = [
     {
+        position: 'Senior Full Stack Engineer',
+        company: 'PDI',
+        url: 'https://politicaldata.com/',
+        duration: 'Jan 2022 - Present'
+    },
+    {
         position: 'Senior Full Stack Developer',
         company: 'Whitecrow Research',
         url: 'https://whitecrow.co/',
-        duration: 'Aug 2019 - Present'
+        duration: 'Aug 2019 - Jan 2022'
     },
     {
         position: 'Senior Full Stack Developer',
@@ -22,7 +28,7 @@ const Experiences = [
     }
 ]
 
-const Experience = props => {
+const Experience = () => {
     return (
         <section className="experience" id="experiences">
             <div className="experience-container">
@@ -35,7 +41,7 @@ const Experience = props => {
                             Experiences.map((exp, index) => (
                                 <div key={index} className="experience-card">
                                     <h4>
-                                        <a href={exp.url}>
+                                        <a href={exp.url} target="_blank">
                                             {exp.company}
                                         </a>
                                     </h4>

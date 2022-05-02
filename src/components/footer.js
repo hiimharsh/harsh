@@ -11,7 +11,7 @@ export default function Footer() {
                         <li><a href="http://twitter.com/hiimharsh/" target="_blank" className="twitter" title="Twitter"><FaTwitter size={24}/></a></li>
                         <li><a href="http://hiimharsh.tumblr.com/" target="_blank" className="tumblr" title="Tumblr"><FaTumblr size={24}/></a></li>
                         <li><a href="http://instagram.com/hiimharsh/" target="_blank" className="instagram" title="Instagram"><FaInstagram size={24}/></a></li>
-                        <li><a href="http://snapchat.com/add/hiimharsh/" target="_blank" className="snapchat" title="Snapchat"><FaSnapchatGhost size={24}/></a></li>
+                        {/* <li><a href="http://snapchat.com/add/hiimharsh/" target="_blank" className="snapchat" title="Snapchat"><FaSnapchatGhost size={24}/></a></li> */}
                         <li><a href="http://github.com/hiimharsh/" target="_blank"><FaGithubAlt size={26} title="Github"/></a></li>
                         <li><a href="mailto:harshthakkar46@gmail.com" target="_blank"><FaEnvelope size={24} title="Mail"/></a></li>
                     </ul>

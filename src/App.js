@@ -12,7 +12,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isVisible: false
+      isVisible: false,
+      planet: 'Sun',
     };
   }
 
@@ -32,13 +33,20 @@ class App extends Component {
     else this.setState({ isVisible: false });
   }
 
+  setTheme(planet) {
+    console.log(planet);
+    this.setState({ planet });
+  }
+
   render() {
-    const { isVisible } = this.state;
+    const { isVisible, planet } = this.state;
 
     return (
       <div className="main">
-        <Header title={'Harsh Thakkar'} />
-        <Banner />
+        <Header
+          title={'Harsh Thakkar'}
+          setTheme={this.setTheme.bind(this)} />
+        <Banner planet={planet} />
         <Work />
         <Experience />
         <Skills />

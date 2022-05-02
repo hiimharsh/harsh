@@ -4,7 +4,7 @@ import '../assets/css/skills.scss'
 const skills = [
     {
         title: 'Technical',
-        skill: ["Angular", "React", "Node.js", "Swift", "Three.js"]
+        skill: ["Angular", "React / Next.js", "Node.js / NestJS", "Typescript", "Swift"]
     },
     {
         title: 'Cloud',
@@ -20,7 +20,7 @@ const skills = [
     }
 ]
 
-const Skills = props => {
+const Skills = () => {
     return (
         <section className="skills" id="skills">
             <div className="skills-headline">

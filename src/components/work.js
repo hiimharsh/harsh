@@ -11,6 +11,10 @@ export default function Work() {
                     {/* In the past years I’ve worked with some incredible projects to help bring their visions to life */}
                     Projects
                 </h3>
+                <p>
+                    Over the years, I have build powerful products and contributed to large number of projects.
+                    Here are some of my favourite projects.
+                </p>
                 <div className="work-projects">
                     {
                         Projects.map((project, index) => <ProjectCard key={index} project={project} />)

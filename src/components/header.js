@@ -25,6 +25,10 @@ class Header extends React.Component {
         planets: planets
     }
 
+    constructor (props) {
+        super(props);
+    }
+
     componentDidMount () {
         var prevScrollpos = window.pageYOffset;
         var toScroll = true;
@@ -72,6 +76,7 @@ class Header extends React.Component {
         localStorage.setItem('planet', planet);
         let planetIcon = planets.filter(p => p.name === planet)[0].icon;
         this.setState({ planet, planetIcon, dropdownOpen: false });
+        this.props.setTheme(planet);
     }
 
     render () {
@@ -106,7 +111,7 @@ class Header extends React.Component {
                                             <ul>
                                                 {
                                                     planets.map((p, i) => (
-                                                        <li key={i} onClick={this.changeTheme.bind(this, p.name)}>
+                                                        <li key={i} onClick={() => this.changeTheme(p.name)}>
                                                             <div className="planet-icon">
                                                                 <img src={p.icon} alt={p.name} />
                                                             </div>
