@@ -1,24 +1,17 @@
 {
   "files": {
-    "main.css": "/harsh/static/css/main.4a299cef.chunk.css",
-    "main.js": "/harsh/static/js/main.73603feb.chunk.js",
-    "main.js.map": "/harsh/static/js/main.73603feb.chunk.js.map",
-    "runtime-main.js": "/harsh/static/js/runtime-main.6b89e49b.js",
-    "runtime-main.js.map": "/harsh/static/js/runtime-main.6b89e49b.js.map",
-    "static/js/2.893a768b.chunk.js": "/harsh/static/js/2.893a768b.chunk.js",
-    "static/js/2.893a768b.chunk.js.map": "/harsh/static/js/2.893a768b.chunk.js.map",
+    "main.css": "/harsh/static/css/main.7f5d9ed3.css",
+    "main.js": "/harsh/static/js/main.b77b3b89.js",
+    "static/media/newprofile.jpg": "/harsh/static/media/newprofile.4cb64d941c7e69be8100.jpg",
+    "static/media/productsans.ttf": "/harsh/static/media/productsans.53df38d5491afbeb42a5.ttf",
+    "static/media/harsh-signature.png": "/harsh/static/media/harsh-signature.f9cc5a8757229180341d.png",
+    "static/media/harsh-signature-white.png": "/harsh/static/media/harsh-signature-white.b14ddb2d820a29f21811.png",
     "index.html": "/harsh/index.html",
-    "static/css/main.4a299cef.chunk.css.map": "/harsh/static/css/main.4a299cef.chunk.css.map",
-    "static/js/2.893a768b.chunk.js.LICENSE.txt": "/harsh/static/js/2.893a768b.chunk.js.LICENSE.txt",
-    "static/media/harsh-signature-white.b14ddb2d.png": "/harsh/static/media/harsh-signature-white.b14ddb2d.png",
-    "static/media/harsh-signature.f9cc5a87.png": "/harsh/static/media/harsh-signature.f9cc5a87.png",
-    "static/media/newprofile.4cb64d94.jpg": "/harsh/static/media/newprofile.4cb64d94.jpg",
-    "static/media/index.scss": "/harsh/static/media/productsans.53df38d5.ttf"
+    "main.7f5d9ed3.css.map": "/harsh/static/css/main.7f5d9ed3.css.map",
+    "main.b77b3b89.js.map": "/harsh/static/js/main.b77b3b89.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b89e49b.js",
-    "static/js/2.893a768b.chunk.js",
-    "static/css/main.4a299cef.chunk.css",
-    "static/js/main.73603feb.chunk.js"
+    "static/css/main.7f5d9ed3.css",
+    "static/js/main.b77b3b89.js"
   ]
 }
